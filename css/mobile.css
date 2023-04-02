@@ -1,0 +1,199 @@
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    h1,h2,h3,h4,h5,h6,span,p {
+
+
+        margin:0;
+        padding:0;
+
+    }
+
+
+
+        body    
+        {
+            margin:0px;
+            padding:0px;
+            background-color:white;
+         }
+
+        header 
+        {
+            background-color:#1A3008;
+            width:100%;
+            height:100px;
+            position:sticky;
+            top:0;
+            left:0;
+        }
+
+
+        header img {
+      
+            width:70px;
+            height:70px;
+
+        }
+
+
+        main {
+
+            height:400px;
+      
+
+
+        }
+
+        .section_fixed_image {
+       
+            background-image: url(../images/wood.jpg);
+            height:150px;
+            width:100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+        }
+
+
+        .section_news {
+          
+
+            height:auto;
+
+        }
+
+        .article_news {
+
+            display: flex;
+
+
+        }
+
+        .section_news h2 {
+
+            display: block;
+            width: 100%;
+
+        }
+
+
+        .section_news img {
+
+            width:100%;
+
+        }
+
+
+        .section_banner {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../images/FINAL_GUBBAR.png);
+           
+            width:100%;
+            height:145px;
+
+
+        }
+
+        .section_presensation {
+
+            background-color:#FFDAA1;
+            width:100%;
+            height:172px;
+       
+
+
+        }
+ 
+
+
+
+        footer {
+            z-index: 100;
+            position: relative;
+            background-color:#1A3008;
+            height:555px;
+            width:100%;
+       
+            bottom:86px;
+            left:0;
+
+
+
+        }
+
+        .section_socialmedia {
+
+            height:85px;
+            width:100%;
+            background-color:white;
+          
+            bottom:0;
+
+        }
+
+
+        .section_contacting {
+
+            position: relative;
+            background-color: #FFDAA1;
+            height:650px;
+            width:100%;
+
+
+        }
+
+        .section_contacting input {
+            display: block;
+
+        }
+
+        .section_services {
+
+            background-color: #FFDAA1;
+            clear:both;
+
+
+        }
+
+        .section_services img {
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            width:100%;
+            height:auto;
+            background-size: cover;
+
+        }
+
+
+        .lt_news {
+         
+            padding:10px;
+            width:auto;
+            float:left;
+
+
+        }
+
+
+
+        
+
+        .rt_news {
+            padding:10px;
+            width:auto;
+            float:left;
+
+
+        }
+
+
+
+
+
+
+
+  }
