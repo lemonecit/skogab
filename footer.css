@@ -1,0 +1,78 @@
+@media screen and (max-width: 600px) 
+{
+        footer 
+                {
+                height:555px;
+                background-color:#1A3008;
+                }
+
+                .footer_cert {
+
+                 
+                    display: flex;
+                    justify-content: center;
+                    column-gap: 70px;
+                    padding: 10px;
+                    border-bottom: 1px solid #5F5F5F;
+
+
+                }
+
+                .footer_cert img {
+                    width: 40%;
+                    height: 125px;
+
+                }
+
+                .footer_companyname {
+
+                    padding: 10px;     
+                    border-bottom: 1px solid #5F5F5F;
+                    text-align: center;
+                    color:white;
+                }
+
+                .footer_address {
+
+                    justify-content: center;
+                    display: grid;
+                    padding:10px;
+                  
+                    border-bottom: 1px solid #5F5F5F;
+                }
+
+
+                
+
+                .footer_address aside img {
+
+
+                    display: block;
+                   
+
+
+                }
+
+                .footer_links {
+
+
+                        display: inline-flex;
+
+
+
+                }
+
+                .footer_links ul li  {
+                    color:white;
+                   display: inline;
+                   padding:5px;
+                                    }
+                .footer_links ul li a {
+                    color:white;
+text-decoration: none;
+
+                }
+
+
+
+  }
