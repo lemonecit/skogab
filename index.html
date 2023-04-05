@@ -6,20 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/desktop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
     <title>Startsidan</title>
 </head>
 <body>
-    <header>
+    <header class="header_mobile">
+
+      
+        <aside class="logo">
+            <a href="index.html">
+                <img src="images/logo for mobil.png" alt="">
+            </a>
+        </aside>
+        <aside class="hamburger">
+            <input class="side-menu" type="checkbox" id="side-menu" />
+
+            <label class="hamb" for="side-menu">    
+               <span class="hamb-line"></span>
+            </label>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Startsidan</a></li>
+                <li><a href="nyheter.html">Nyheter</a></li>
+                <li><a href="kontakt.html">Kontakta oss</a></li>
+                <li><a href="aboutus.html">Om oss</a></li>
+            </ul>
+
+        </nav>
+
+        </aside>
+    </header>   
+
+    <header class="header_desktop">
 
         <aside></aside>
         <aside><img src="images/logo for mobil.png" alt=""></aside>
 
-    </header>    
+    </header>   
+    
+    
+    
 
     <main>
 
         
         <section class="section_banner">
+
+            <span class="banner_offert">Skicka en offertförfrågan</span>
             
         </section>
         <section class="section_presensation">
@@ -91,11 +127,12 @@
         </aside>
 
         <article>
-
-            Direkt på fakturan
-            RUT-avdrag
+            <h2>Direkt på fakturan</h2>
+            <span>RUT-avdrag</span>
+        <p> 
             Merparten av våra tjänster är giltiga för RUT-avdrag, som görs direkt på fakturan när tillämpbart. Det innebär att du får 50% skatteavdrag på arbetskostnaden. ESSE kraft AB är godkända både för RUT och ROT avdrag. 
-            Vi skickar de uppgifter Skatteverket önskar direkt från vårt affärssystem.
+            Vi skickar de uppgifter Skatteverket önskar direkt från vårt affärssystem.</p>
+         
 
         </article>
             
@@ -105,46 +142,79 @@
         </section>
         <section class="section_contacting">
             <h2>kontakta oss</h2>
-            <label for="fnamn"></label> <input type="text" name="fnamn">
-            <label for="enamn"></label><input type="text" name="enamn">
-            <label for="email"></label><input type="text" name="email">
-            <input for="tfn"> <input type="text" name="tfn">
-            <input type="textfield">
+            <label for="fnamn">
+                Förnamn:
+            </label> <input type="text" name="fnamn">
+            <label for="enamn">
+                Efternamn:
+            </label><input type="text" name="enamn">
+            <label for="email">
+                Email:
+            </label><input type="text" name="email">
+            <label for="tfn">
+                Telefonnr:
+            </label>
+             <input type="text" name="tfn">
+            <label for="com">Övriga frågor eller kommentarer:</label>
+            <input type="textarea" name="com">
             <input type="submit"/>
         </section>
         
         <footer>
-            <section class="footer_certificates">
-                <aside><img src="images/cert.jpg" alt=""></aside>
-                <aside><img src="images/ETW-logo.png" alt=""></aside>
-                <aside><img src="images/pefc.png" alt=""></aside>
 
+            <section class="footer_cert">
+    
+                <img src="images/smf.jpg" alt="Skogscertificering i SMS">
+                <img src="images/eac.png" alt="certifiering i eac">
+                <img src="images/pefc.png" alt="certifiering i pefc">
+    
             </section>
-            <section class="footer_companyname"><h3>Skogsföretaget AB</h3></section>
-            <section class="footer_address"></section>
+            <section class="footer_companyname">
+                <h2>Skogsföretaget</h2>
+                <h2>012-123456</h2>
+            </section>
+            <section class="footer_address">
+                <aside class="footer_home">
+                    <img src="images/home.png" alt="adress till skogab">
+                    <span>Storskogsvägen 1</span>
+                    <span>234 56 Storskog</span>
+                </aside>
+                <aside class="footer_mail">
+                    <img src="images/mail.png" alt="skicka mail till skogab">
+                    <a href="mailto:info@skogab.se">info@skogab.se</a>
+                </aside>
+                <aside class="footer_telephone">
+                    <img src="images/telephone.png" alt="ringa till skogab">
+                    <span>012-123456</span>
+                </aside>
+    
+            </section>
             <section class="footer_links">
-              <ul>
-                <li><a href="index.html">Startsidan</a></li>
-                <li><a href="Nyheter.html">Nyheter</a></li>
-                <li><a href="contact.html">Kontakta oss</a></li>
-                <li><a href="aboutus.html">Om oss</a></li>
-                <li><a href="">Tillgänglighet</a></li>
-              </ul>
-
-            </section>
-            
-        </footer>
-        <section class="section_socialmedia">
-            <aside class="copyright">Copyright 2014</aside>
-            <aside>
-                <ul>    
-                    <a href=""><img src="" alt=""></a>  
-                    <a href=""><img src="" alt=""></a> 
-                    <a href=""><img src="" alt=""></a>
+    
+                <ul>
+                    <li><a href="index.html">Startsidan</a></li>
+                    <li><a href="nyheter.html">Nyheter</a></li>
+                    <li><a href="kontakt.html">Kontakta oss</a></li>
+                    <li><a href="aboutus.html">Om oss</a></li>
+                    <li><a href="accessibility.html">Tillgänglighet</a></li>
                 </ul>
-
-            </aside>
-        </section>
+    
+            </section>
+    
+    
+        </footer>
+            <section class="socialmedias">
+                    <aside class="socialmedias_lt">
+                        <span>SkogAB Copyright © 2014</span>
+                    </aside>   
+                    <aside class="socialmedias_rt">
+                        <aside><img src="images/instagram.png" alt="Till vår instagram"></aside>
+                        <aside><img src="images/youtube.png" alt=""></aside>
+                        <aside><img src="images/fa.png" alt=""></aside>
+    
+    
+                    </aside>
+            </section>
     </main>
         
     </body>

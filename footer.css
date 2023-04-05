@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 400px) 
 {
         footer 
                 {
@@ -87,6 +87,22 @@ text-decoration: none;
                 .socialmedias_rt {
                     float:right;
                     display: flex;
+
+                }
+
+
+                .socialmedias {
+
+                    width:100%;
+
+                }
+
+                .mainas {
+
+
+                    width:600px;
+                    background-color:red;
+                    height:600px;
 
                 }
 
