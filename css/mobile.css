@@ -788,12 +788,12 @@ text-decoration: none;
 
         .aboutus_ad {
 
-
+            display: grid;
             background-repeat: no-repeat;
             background-size: cover;
-            background-image: url(../images/464.jpg);
-            background-position: -300px 50%;
-            width: 235%;
+            background-image: url(../images/aboutus_contact.png);
+            /* background-position: -300px 50%; */
+            width: 100%;
             height: 290px;
         
 
@@ -801,38 +801,41 @@ text-decoration: none;
 
         .aboutus_ad h2 
             {
-            position: relative;
-            top: 30px;
-            right: 230px;   
-            color:white;
-            font-size:28px;
+                color: white;
+                font-size: 28px;
+                align-self: self-end;
             }
 
 
         .aboutus_ad span {
 
-            left: 30px;
-    font-weight: bold;
-    display: block;
-    top: 40px;
-    position: relative;
-    width: 300px;
-    color: white;
-    font-size: 22px;
+            align-content: center;
+            /* left: 30px; */
+            font-weight: bold;
+            /* display: block; */
+            /* top: 19px; */
+            position: relative;
+            width: 300px;
+            color: white;
+            font-size: 22px;
+            align-self: center;
+            justify-self: center;
 
         }
 
         
         .aboutus_ad button {
+            align-self: center;
             border: 3px solid white;
-            top: 45px;
+            /* top: 45px; */
             color: white;
             background-color: #74A82A;
             width: 150px;
             padding: 10px;
-            position: relative;
+            /* position: relative; */
             font-size: 18px;
-            left: 115px;
+            /* left: 115px; */
+            justify-self: center;
 
         }
 
