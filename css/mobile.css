@@ -792,7 +792,7 @@ text-decoration: none;
             background-repeat: no-repeat;
             background-size: cover;
             background-image: url(../images/464.jpg);
-            background-position: -478px 49%;
+            background-position: -410px 30%;
             width: 235%;
             height: 290px;
         
@@ -814,7 +814,7 @@ text-decoration: none;
             left: 30px;
     font-weight: bold;
     display: block;
-    top: 60px;
+    top: 40px;
     position: relative;
     width: 400px;
     color: white;
@@ -832,7 +832,7 @@ text-decoration: none;
             padding: 10px;
             position: relative;
             font-size: 18px;
-            left: 255px;
+            left: 200px;
 
         }
 
