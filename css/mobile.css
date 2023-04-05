@@ -429,7 +429,7 @@
          
             display: flex;
             justify-content: center;
-            column-gap: 70px;
+            column-gap: 5px;
             padding: 10px;
             border-bottom: 1px solid #5F5F5F;
 
