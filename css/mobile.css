@@ -552,7 +552,7 @@ text-decoration: none;
                 {
                     font-weight: 900;
                     color: #77b446;
-                    font-size: 12px;
+                    font-size: 10px;
                 
                 }
 
@@ -738,7 +738,7 @@ text-decoration: none;
             width: 50%;
             align-self: center;
             text-align: center;
-            width: 90%;
+            width: 100%;
             /* margin: 0 auto; */
             justify-self: center;
             height: 250px;
@@ -816,7 +816,7 @@ text-decoration: none;
     display: block;
     top: 40px;
     position: relative;
-    width: 400px;
+    width: 300px;
     color: white;
     font-size: 22px;
 
@@ -828,7 +828,7 @@ text-decoration: none;
             top: 45px;
             color: white;
             background-color: #74A82A;
-            width: 200px;
+            width: 150px;
             padding: 10px;
             position: relative;
             font-size: 18px;
