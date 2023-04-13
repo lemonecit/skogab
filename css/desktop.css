@@ -401,7 +401,7 @@
 
         .contacting_content {
 
-            width:70%;
+            width:50%;
             margin:0 auto;
 
         }
@@ -725,6 +725,7 @@ text-decoration: none;
         .section_services h3 {
 
 
+            padding: 10px;
             /* left: 35%; */
             position: relative;
             /* align-items: center; */
@@ -732,9 +733,11 @@ text-decoration: none;
             align-content: center;
             /* margin: 0 auto; */
             /* text-align: center; */
-            top: 55px;
+            top: 370px;
             color: white;
-            font-size:26px;
+            font-size: 26px;
+            background-color: #74A82A;
+            height: 50px;
             
 
         }
