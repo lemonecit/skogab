@@ -74,17 +74,15 @@
 
          .header_desktop nav {
 
+            text-align: center;
+            align-items: center;
             display: flex;
             width: 60%;
             margin: 0 auto;
             justify-content: space-between;
-            align-items: center;
+            /* align-items: center; */
             /* align-content: stretch; */
             height: 100%;
-            /* display: -webkit-flex; */
-            /* display: inline-flex; */
-            /* -webkit-justify-content: center; */
-            /* justify-content: center; */
             
             }
             
