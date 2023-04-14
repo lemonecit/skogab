@@ -24,13 +24,13 @@
 
     h1 {
 
-        font-size:30px;
-
+        font-size:60px;
+        color:white;
     }
 
     h2 {
 
-        font-size:24px;
+        font-size:36px;
 
     }
 
@@ -443,6 +443,10 @@
             background-position: 50% 50%;
             width:100%;
             height:250px;
+            justify-content: center;
+            display: flex;
+            align-content: center;
+            align-items: center;
 
         }
 
@@ -454,17 +458,25 @@
             background-position: 50% 50%;
             width:100%;
             height:250px;
+            justify-content: center;
+            display: flex;
+            align-content: center;
+            align-items: center;
 
         }
 
         .aboutus_banner {
 
+            justify-content: center;
+            display: flex;
             background-repeat: no-repeat;
             background-size: cover;
             background-image: url(../images/aboutus.jpg);
             background-position: 50% 50%;
-            width:100%;
-            height:250px;
+            width: 100%;
+            height: 250px;
+            align-content: center;
+            align-items: center;
 
         }
 
@@ -863,18 +875,22 @@ text-decoration: none;
 
         }
 
-
-        .section_aboutus {
-
+        .section_aboutus 
+            {
             background-color: var(--orange);
-
-            display:flex;
-            flex-wrap:wrap;
             width:100%;
-            margin:0 auto;
+            }
 
-
-        }
+        .aboutus_content    
+            {
+            column-gap: 2%;
+            display: flex;
+            flex-wrap: wrap;
+            width: 70%;
+            margin: 0 auto;
+            justify-content: center;
+            padding: 10px;
+            }
 
         .aboutus_column {
             flex:0 0 30%
@@ -909,33 +925,43 @@ text-decoration: none;
 
         }
 
-        .aboutus_column .aboutus_content {
-            
-            margin:0 auto;
-            width:85%;
-            padding:10px;
-
-        }
+        .aboutus_column .aboutus_content 
+            {
+                BACKGROUND-COLOR: WHITE;
+                margin: 0 auto;
+                width: 100%;
+                padding: 10px;
+            }
 
 
         .aboutus_ad {
 
-            display: grid;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url(../images/aboutus_contact.png);
-            /* background-position: -300px 50%; */
-            width: 100%;
-            height: 290px;
+             display: grid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/aboutus_banner.jpg);
+    background-position: 0px 20%;
+    width: 100%;
+    height: 688px;
         
 
         }
 
         .aboutus_ad h2 
             {
+                width: 890px;
+                text-shadow: 6px 2px 0px black;
+                background-color: #56dc1463;
                 color: white;
-                font-size: 28px;
+                font-size: 60px;
                 align-self: self-end;
+                /* text-align: center; */
+                justify-self: center;
+            }
+
+            .aboutus_ad h2 br {
+
+                display:none;
             }
 
 
@@ -946,12 +972,13 @@ text-decoration: none;
             font-weight: bold;
             /* display: block; */
             /* top: 19px; */
-            position: relative;
-            width: 300px;
+            /* position: relative; */
+            width: 464px;
             color: white;
-            font-size: 22px;
+            font-size: 30px;
             align-self: center;
-            justify-self: center;
+            justify-self: right;
+            margin-right: 48px;
 
         }
 
@@ -975,14 +1002,14 @@ text-decoration: none;
         .company_history {
 
             display: flex;
-            height:300px;
+            height:465px;
             align-items: center;
             justify-content: center;
         }
 
         .company_history img {
       
-          width: 220px;
+          width: 325px;
      
      
 
