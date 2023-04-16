@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +19,7 @@
       
         <aside class="logo">
             <a href="index.html">
-                <img src="images/logo for mobil.png" alt="">
+                <img src="images/logoForMobil.png" alt="logga för skogsab">
             </a>
         </aside>
         <aside class="hamburger">
@@ -44,10 +46,15 @@
     
     <header class="header_desktop">
 
-        <aside></aside>
-        <aside><img src="images/logo for mobil.png" alt=""></aside>
+        <aside class="forLogo">
 
-        <aside>
+            
+            <img src="images/desktop_logo.png" alt="">
+            
+        </aside>
+  
+
+        <aside class="forNav">
 
 
             <nav class="nav">
@@ -63,7 +70,6 @@
             </aside>
     </header>   
     
-    
 
     <main>
 
@@ -78,26 +84,50 @@
            
 
             <article class="contacting_content">
+                <aside class="contacting_field">
+                    <article>
+                        <label for="fnamn">
+                            Förnamn:
+                        </label> <input type="text" id="fnamn">
+                    </article>
+                    <article>
+                        <label for="enamn">
+                            Efternamn:
+                        </label><input type="text" id="enamn">
 
-                <label for="fnamn">
-                    Förnamn:
-                </label> <input type="text" name="fnamn">
-                <label for="enamn">
-                    Efternamn:
-                </label><input type="text" name="enamn">
-                <label for="email">
-                    Email:
-                </label><input type="text" name="email">
-            <label for="tfn">
-                Telefonnr:
-            </label>
-             <input type="text" name="tfn">
-            <label for="com">Övriga frågor eller kommentarer:</label>
-            <input type="textarea" name="com">
+                    </article>
+                  
+                </aside>
+                <aside class="contacting_field2">
+                    <article>
+
+                        <label for="email">
+                            Email:
+                        </label><input type="text" id="email">
+
+                    </article>
+
+                 <article>
+
+                    <label for="tfn">
+                        Telefonnr:
+                    </label>
+                    <input type="text" id="tfn">
+
+                 </article>
+           
+                          
+                </aside>
+                    <label for="com">Övriga frågor eller kommentarer:</label>
+                    <textarea id="com" rows="4" cols="92">
+
+                    </textarea>
             <input type="submit"/>
         </article>
-       
         </section>
+        
+       
+    
       
         <section class="kontakt_map">
             

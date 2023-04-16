@@ -1,5 +1,5 @@
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (min-width: 900px) {
+@media (min-width: 600px) and (max-width: 900px) {
 
 
     :root {
@@ -19,10 +19,11 @@
         display : block;
         }
         h1 {
-        font-size : 60px;
+        color:white;
+        font-size : 30px;
         }
         h2 {
-        font-size : 36px;
+        font-size : 24px;
         }
         h3 {
         font-size : 22px;
@@ -37,70 +38,13 @@
         box-sizing : border-box;
         }
         body {
-        width : 100%;
-        margin : 0 auto;
+        margin : 0;
         padding : 0;
         background-color : white;
         font-family : "Mulish", sans-serif;
         }
         .header_desktop {
-        display : flex;
-        top : 0;
-        z-index : 1000;
-        position : sticky;
-        background-color : #1a3008;
-        height : 170px;
-        }
-        .header_desktop img {
-        width : auto;
-        height : 170px;
-        }
-        .header_desktop .forLogo {
-        width : 30%;
-        justify-content : center;
-        align-self : center;
-        }
-        .header_desktop .forNav {
-        width: calc(100vw - 360px);
-        height : auto;
-        align-self : center;
-        }
-        .header_desktop nav {
-        justify-content : space-around;
-        text-align : center;
-        align-items : center;
-        display : flex;
-        margin : 0 auto;
-        justify-self : normal;
-        height : 100%;
-        }
-        .header_desktop ul {
-        justify-content : center;
-        height : 100%;
-        padding : 0;
-        display : flex;
-        justify-items : center;
-        }
-        .header_desktop ul li {
-        align-self : center;
-        justify-content : center;
-        height : auto;
-        display : inline;
-        padding : 5px;
-        }
-        .header_desktop a {
-        margin : 0;
-        border-radius : 5px;
-        background : #56dc1463;
-        color : #fff;
-        display : block;
-        padding : 15px;
-        text-decoration : none;
-        }
-        .header_desktop a:hover {
-        background-color : white;
-        color : black;
-        display : block;
+        display : none;
         }
         .hamburger {
         width : 10%;
@@ -166,7 +110,7 @@
         width : 100%;
         }
         .header_mobile {
-        display : none;
+        display : flex;
         justify-content : center;
         align-self : center;
         height : 99px;
@@ -272,58 +216,20 @@
         background-position : center;
         background-repeat : no-repeat;
         background-size : cover;
-        height : 240px;
+        height : 150px;
         }
         .kontakt_map {
         background-image : url(../images/map.png);
         background-position : center;
         background-repeat : no-repeat;
         background-size : cover;
-        height : 390px;
+        height : 150px;
         }
         .section_news {
-        width : 70%;
-        flex-wrap : wrap;
-        display : flex;
         height : auto;
-        margin : 0 auto;
         }
         .article_news {
-        flex : 40%;
-        width : 70%;
         display : flex;
-        margin : 0 auto;
-        }
-        .contacting_content {
-        width : 50%;
-        margin : 0 auto;
-        margin-top : 50px;
-        margin-bottom : 50px;
-        }
-        .contacting_field {
-        display : flex;
-        }
-        .contacting_field article {
-        padding : 5px;
-        width : 50%;
-        }
-        .contacting_field input[type="text"] {
-        width : 100%;
-        }
-        .contacting_field2 input[type="text"] {
-        width : 100%;
-        }
-        .contacting_field2 {
-        display : flex;
-        }
-        .contacting_field2 article {
-        padding : 5px;
-        width : 50%;
-        }
-        .section_news {
-        flex-wrap : wrap;
-        display : flex;
-        height : auto;
         }
         .section_news h2 {
         padding : 20px;
@@ -334,104 +240,88 @@
         width : 100%;
         }
         .section_banner {
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
         background-repeat : no-repeat;
         background-size : cover;
         background-image : url(../images/FINAL_GUBBAR.png);
         width : 100%;
-        height : 650px;
-        }
-        .nyheter_banner h1 {
-        color : white;
-        }
-        .aboutus_banner h1 {
-        color : white;
-        }
-        .kontakt_banner h1 {
-        color : white;
+        height : 145px;
         }
         .nyheter_banner {
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
         background-repeat : no-repeat;
         background-size : cover;
         background-image : url(../images/huvudbild.jpg);
-        background-position : 50% 50%;
+        background-position : 50% 70%;
         width : 100%;
-        height : 250px;
-        justify-content : center;
-        display : flex;
-        align-content : center;
-        align-items : center;
+        height : 145px;
         }
         .kontakt_banner {
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
         background-repeat : no-repeat;
         background-size : cover;
         background-image : url(../images/wood.jpg);
-        background-position : 50% 50%;
+        background-position : 50% 70%;
         width : 100%;
-        height : 250px;
-        justify-content : center;
-        display : flex;
-        align-content : center;
-        align-items : center;
+        height : 145px;
         }
         .aboutus_banner {
-        justify-content : center;
-        display : flex;
+            
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
         background-repeat : no-repeat;
         background-size : cover;
         background-image : url(../images/aboutus.jpg);
-        background-position : 50% 50%;
+        background-position : 50% 70%;
         width : 100%;
-        height : 250px;
-        align-content : center;
-        align-items : center;
+        height : 145px;
+
         }
+
         .banner_offert {
-        width : 320px;
-        display : flex;
+        display : table;
         background-color : #74A82A;
         border : white solid 2px;
         color : white;
         padding : 5px;
         position : relative;
-        top : 500px;
+        top : 52px;
         margin : 0 auto;
-        height : 60px;
-        align-items : center;
-        align-self : center;
-        align-content : center;
-        justify-content : center;
-        justify-items : center;
-        justify-self : center;
-        text-align : center;
         }
         .section_presensation {
+        padding:20px;
         background-color : #FFDAA1;
         width : 100%;
         height : auto;
-        padding : 50px;
         }
-        .section_presensation span {
-        padding : 10px;
-        display : block;
-        width : 70%;
-        margin : 0 auto;
+        .section_presensation h1 {
+        color:var(--black);
+        padding:20px;
         }
         footer {
-        padding : 10px;
         height : auto;
         background-color : #1A3008;
         }
         .footer_cert {
-        width : 100%;
         display : flex;
         justify-content : center;
         column-gap : 5px;
-        padding : 20px;
+        padding : 10px;
         border-bottom : 1px solid #5F5F5F;
-        margin : 0 auto;
         }
         .footer_cert img {
-        width : auto;
+        width : 40%;
         height : 125px;
         }
         .footer_companyname {
@@ -500,7 +390,7 @@
         width : 100%;
         }
         .socialmedias_lt {
-        width : 10%;
+        width : 100%;
         float : left;
         }
         .socialmedias span {
@@ -509,9 +399,10 @@
         font-size : 10px;
         }
         .socialmedias_rt {
+        justify-content : end;
         width : 100%;
         display : flex;
-        column-gap : 2%;
+        column-gap : 10%;
         }
         .socialmedias_rt img {
         width : 22px;
@@ -541,42 +432,20 @@
         text-transform : uppercase;
         border : white solid 2px;
         }
-        .services_desktop {
-        height : 450px;
-        width : 70%;
-        margin : 0 auto;
-        display : flex;
-        column-gap : 40px;
-        }
-        .service_desktop_content {
-        display : flex;
-        width : 70%;
-        margin : 0 auto;
-        }
-        .service_desktop_content .forRut {
-        width : 40%;
-        }
-        .service_desktop_content .forRutAvdragTxt {
-        padding : 50px;
-        display : grid;
-        }
         .section_services {
         background-color : #FFDAA1;
         clear : both;
-        width : 100%;
+        width : 99%;
         }
         .section_services h2 {
         padding : 20px;
         }
         .section_services h3 {
-        padding : 10px;
         position : relative;
         align-content : center;
-        top : 370px;
+        top : 55px;
         color : white;
         font-size : 26px;
-        background-color : #56dc1463;
-        height : 50px;
         }
         .section_services article p {
         padding : 10px;
@@ -592,7 +461,7 @@
         background-image : url(../images/service_avverkning.jpg);
         background-repeat : no-repeat;
         width : 100%;
-        height : 400px;
+        height : 150px;
         background-size : cover;
         background-position : 50% 70%;
         }
@@ -600,7 +469,7 @@
         background-image : url(../images/service_stubbfrasning.jpg);
         background-repeat : no-repeat;
         width : 100%;
-        height : 400px;
+        height : 150px;
         background-size : cover;
         background-position : center;
         }
@@ -608,53 +477,32 @@
         background-image : url(../images/tjanster2.jpg);
         background-repeat : no-repeat;
         width : 100%;
-        height : 400px;
+        height : 150px;
         background-size : cover;
         background-position : 50% 70%;
         }
         .section_services img {
         background-repeat : no-repeat;
-        width : 100%;
+        width: calc(100vw - 500px);
         height : auto;
         background-size : cover;
         }
         .lt_news {
         padding : 10px;
-        width : 50%;
+        width : auto;
         float : left;
         }
         .rt_news {
         padding : 10px;
-        width : 50%;
+        width : auto;
         float : left;
         }
-        .desktop_news {
-        justify-content : center;
-        column-gap : 5%;
-        width : 55%;
-        display : flex;
-        flex-wrap : wrap;
-        margin : 0 auto;
-        margin-top : 50px;
-        margin-bottom : 50px;
-        }
         .news_column {
-        justify-content : space-around;
-        flex : 0 0 35%;
-        background-color : #f9f9f9;
+        background-color : #ebebeb;
         width : 90%;
-        margin-top : 20px;
+        padding : 10px;
         box-shadow : 3px 3px 20px 0 rgb(0, 0, 0, 0.40);
-        }
-        .news_column h3 {
-        margin-bottom : 10px;
-        padding : 5px;
-        font-size : 17px;
-        }
-        .news_column aside {
-        margin : 0;
-        padding : 0;
-        box-sizing : content-box;
+        margin : 10px auto 20px auto;
         }
         .news_column img {
         display : block;
@@ -667,49 +515,6 @@
         justify-self : center;
         height : 250px;
         }
-        .news_column .news_content {
-        padding : 10px;
-        }
-        .news_column .news_date {
-        display : flex;
-        width : 100%;
-        padding : 10px;
-        font-size : 12px;
-        font-weight : bold;
-        }
-        .news_column .news_date aside {
-        width : 45%;
-        padding : 10px;
-        font-size : 12px;
-        font-weight : bold;
-        }
-        .news_column .news_date aside > a {
-        margin-right : 10px;
-        float : right;
-        justify-self : end;
-        justify-items : end;
-        padding : 10px;
-        font-size : 12px;
-        font-weight : bold;
-        }
-        .section_aboutus {
-        height : auto;
-        background-color : #FFDAA1;
-        width : 100%;
-        padding : 50px;
-        }
-        .aboutus_content {
-        column-gap : 2%;
-        display : flex;
-        flex-wrap : wrap;
-        width : 70%;
-        margin : 0 auto;
-        justify-content : center;
-        padding : 10px;
-        }
-        .aboutus_column {
-        flex : 0 0 30%;
-        }
         .aboutus_column img {
         display : block;
         margin-left : auto;
@@ -721,45 +526,43 @@
         justify-self : center;
         height : 250px;
         }
+        .section_aboutus {
+        height : auto;
+        background-color : #FFDAA1;
+        width : 100%;
+        padding : 0;
+        }
+
         .aboutus_content h3 {
         padding : 10px;
         }
         .aboutus_column .aboutus_content {
-        background-color : white;
         margin : 0 auto;
-        width : 100%;
+        width : 85%;
         padding : 10px;
         }
         .aboutus_ad {
         display : grid;
         background-repeat : no-repeat;
         background-size : cover;
-        background-image : url(../images/aboutus_banner.jpg);
-        background-position : 0 20%;
+        background-image : url(../images/aboutus_contact.png);
         width : 100%;
-        height : 688px;
+        height : 290px;
         }
         .aboutus_ad h2 {
-        width : 890px;
-        text-shadow : 6px 2px 0 black;
-        background-color : #56dc1463;
         color : white;
-        font-size : 60px;
+        font-size : 28px;
         align-self : self-end;
-        justify-self : center;
-        }
-        .aboutus_ad h2 br {
-        display : none;
         }
         .aboutus_ad span {
         align-content : center;
         font-weight : bold;
-        width : 464px;
+        position : relative;
+        width : 300px;
         color : white;
-        font-size : 30px;
+        font-size : 22px;
         align-self : center;
-        justify-self : right;
-        margin-right : 48px;
+        justify-self : center;
         }
         .aboutus_ad button {
         align-self : center;
@@ -773,15 +576,13 @@
         }
         .company_history {
         display : flex;
-        height : 465px;
+        height : 300px;
         align-items : center;
         justify-content : center;
         }
         .company_history img {
-        width : 325px;
+        width : 220px;
         }
-
-
 
 
 
